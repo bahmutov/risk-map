@@ -18,7 +18,8 @@
                       "children": [],
                       "loc": 6,
                       "cyclomatic": 1,
-                      "halstead": 4
+                      "halstead": 4,
+                      "modified": "2013-07-30T21:19:41.679Z"
                     },
                     {
                       "name": "utils",
@@ -29,7 +30,8 @@
                           "loc": 20,
                           "cyclomatic": 1,
                           "halstead": 11,
-                          "coverage": 60
+                          "coverage": 60,
+                      		"modified": "2013-07-29T21:19:41.679Z"
                         },
                         {
                           "name": "discoverfiles.js",
@@ -37,7 +39,8 @@
                           "loc": 13,
                           "cyclomatic": 1,
                           "halstead": 6,
-                          "coverage": 20
+                          "coverage": 20,
+                      		"modified": "2013-07-20T21:19:41.679Z"
                         },
                         {
                           "name": "not.js",
@@ -45,7 +48,8 @@
                           "loc": 7,
                           "cyclomatic": 1,
                           "halstead": 4,
-                          "coverage": 100
+                          "coverage": 100,
+                      		"modified": "2013-07-30T21:19:41.679Z"
                         },
                         {
                           "name": "watchfiles.js",
@@ -53,7 +57,8 @@
                           "loc": 10,
                           "cyclomatic": 2,
                           "halstead": 6,
-                          "coverage": 99
+                          "coverage": 99,
+                          "modified": "2013-07-20T21:19:41.679Z"
                         },
                         {
                           "name": "pluckfunction.js",
@@ -108,7 +113,8 @@
                           "loc": 20,
                           "cyclomatic": 1,
                           "halstead": 9,
-                          "coverage": 57
+                          "coverage": 57,
+                          "modified": "2013-07-20T21:19:41.679Z"
                         },
                         {
                           "name": "testbaseinfo.js",
@@ -116,7 +122,8 @@
                           "loc": 14,
                           "cyclomatic": 2,
                           "halstead": 9,
-                          "coverage": 77
+                          "coverage": 77,
+                          "modified": "2013-07-10T21:19:41.679Z"
                         },
                         {
                           "name": "testreport.js",

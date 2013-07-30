@@ -1,4 +1,4 @@
-/*! risk-map-0.0.1 built on Tue Jul 30 2013 17:08:39 by Gleb Bahmutov */
+/*! risk-map-0.0.1 built on Tue Jul 30 2013 17:42:20 by Gleb Bahmutov */
 
 (function (d3) {
   var w = window.innerWidth * 0.8,
@@ -53,22 +53,43 @@
     	.domain([0, 100])
     	.range([0, 1]);
 
+    var day = 24*3600*1000;
+    var defaultModified = 5*day;
+    var modifiedScale = 3*day;
+    var green = 120;
+
+    function modifiedDays(d) {
+			var sinceModified = d.modified ? new Date() - new Date(d.modified) : defaultModified;
+    	return sinceModified;
+    }
+
     cell.append('svg:rect')
     	.attr('width', function (d) { return d.dx - 1; })
     	.attr('height', function (d) { return d.dy - 1; })
     	.style('fill', function (d) { 
-    		// return color(d.parent.name); 
     		var cover = d.coverage ? +d.coverage : 0;
     		var unit = coverageScale(cover);
-    		return colorCompute(unit);
+    		var L = unit * 50 + 50; // from 50% to 100% depending on coverage
+
+    		var sinceModified = modifiedDays(d);
+    		var modifiedUnit = sinceModified / modifiedScale;
+    		if (modifiedUnit > 1.0) {
+    			modifiedUnit = 1.0;
+    		}
+    		var hue = (1.0 - modifiedUnit) * green;
+    		return 'hsl(' + hue + ', 100%, ' + L + '%)';
     	});
 
     cell.append('svg:title')
     	.text(function (d) {
+    		var cover = d.coverage ? +d.coverage : 0;
+    		var days = modifiedDays(d) / day;
+    		days = days ? +days.toFixed(1) + ' day(s) ago': 'long time ago';
     		return d.name + '\n' + d.loc + ' lines of code\n'
     			+ d.cyclomatic + ' cyclomatic complexity\n'
     			+ d.halstead + ' Halstead difficulty\n'
-    			+ d.coverage + '% unit test coverage';
+    			+ cover + '% unit test coverage\n'
+    			+ 'modified ' + days;
     	});
 
     cell.append('svg:text')
