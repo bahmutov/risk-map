@@ -28,55 +28,62 @@
                           "children": [],
                           "loc": 20,
                           "cyclomatic": 1,
-                          "halstead": 11
+                          "halstead": 11,
+                          "coverage": 60
                         },
                         {
                           "name": "discoverfiles.js",
                           "children": [],
                           "loc": 13,
                           "cyclomatic": 1,
-                          "halstead": 6
+                          "halstead": 6,
+                          "coverage": 20
                         },
                         {
                           "name": "not.js",
                           "children": [],
                           "loc": 7,
                           "cyclomatic": 1,
-                          "halstead": 4
+                          "halstead": 4,
+                          "coverage": 100
                         },
                         {
                           "name": "watchfiles.js",
                           "children": [],
                           "loc": 10,
                           "cyclomatic": 2,
-                          "halstead": 6
+                          "halstead": 6,
+                          "coverage": 99
                         },
                         {
                           "name": "pluckfunction.js",
                           "children": [],
                           "loc": 10,
                           "cyclomatic": 2,
-                          "halstead": 6
+                          "halstead": 6,
+                          "coverage": 100
                         },
                         {
                           "name": "joinarguments.js",
                           "children": [],
                           "loc": 9,
                           "cyclomatic": 3,
-                          "halstead": 9
+                          "halstead": 9,
+                          "coverage": 100
                         },
                         {
                           "name": "utils.js",
                           "children": [],
                           "loc": 67,
                           "cyclomatic": 10,
-                          "halstead": 37
+                          "halstead": 37,
+                          "coverage": 88
                         },
                         {
                           "name": "test",
                           "children": [
                             {
-                              "name": "c:\\git\\gt2\\src\\utils\\test\\joinArgumentsTest.js",
+                              "name": "joinArgumentsTest.js",
                               "children": [],
                               "coverage": 100
                             }
@@ -89,7 +96,8 @@
                       "children": [],
                       "loc": 11,
                       "cyclomatic": 1,
-                      "halstead": 5
+                      "halstead": 5,
+                      "coverage": 98
                     },
                     {
                       "name": "unittest",
@@ -99,56 +107,64 @@
                           "children": [],
                           "loc": 20,
                           "cyclomatic": 1,
-                          "halstead": 9
+                          "halstead": 9,
+                          "coverage": 57
                         },
                         {
                           "name": "testbaseinfo.js",
                           "children": [],
                           "loc": 14,
                           "cyclomatic": 2,
-                          "halstead": 9
+                          "halstead": 9,
+                          "coverage": 77
                         },
                         {
                           "name": "testreport.js",
                           "children": [],
                           "loc": 18,
                           "cyclomatic": 6,
-                          "halstead": 19
+                          "halstead": 19,
+                          "coverage": 87
                         },
                         {
                           "name": "collectionmethods.js",
                           "children": [],
                           "loc": 66,
                           "cyclomatic": 7,
-                          "halstead": 28
+                          "halstead": 28,
+                          "coverage": 71
                         },
                         {
                           "name": "testasync.js",
                           "children": [],
                           "loc": 41,
                           "cyclomatic": 7,
-                          "halstead": 24
+                          "halstead": 24,
+                          "coverage": 34
                         },
                         {
                           "name": "moduletests.js",
                           "children": [],
                           "loc": 60,
                           "cyclomatic": 8,
-                          "halstead": 35
+                          "halstead": 35,
+                          "coverage": 17
                         },
                         {
                           "name": "testcollection.js",
                           "children": [],
                           "loc": 127,
                           "cyclomatic": 12,
-                          "halstead": 38
+                          "halstead": 38,
+                          "coverage": 88
                         },
                         {
                           "name": "test.js",
                           "children": [],
                           "loc": 57,
                           "cyclomatic": 12,
-                          "halstead": 20
+                          "halstead": 20,
+                          "coverage": 96
                         }
                       ]
                     },
@@ -157,42 +173,49 @@
                       "children": [],
                       "loc": 21,
                       "cyclomatic": 2,
-                      "halstead": 9
+                      "halstead": 9,
+                      "coverage": 100
                     },
                     {
                       "name": "qunitbrowseradapter.js",
                       "children": [],
                       "loc": 8,
                       "cyclomatic": 2,
-                      "halstead": 11
+                      "halstead": 11,
+                      "coverage": 50
                     },
                     {
                       "name": "testruninfo.js",
                       "children": [],
                       "loc": 16,
                       "cyclomatic": 2,
-                      "halstead": 13
+                      "halstead": 13,
+                      "coverage": 89
                     },
                     {
                       "name": "shiv.js",
                       "children": [],
                       "loc": 10,
                       "cyclomatic": 3,
-                      "halstead": 9
+                      "halstead": 9,
+                      "coverage": 25
                     },
                     {
                       "name": "dohadapter.js",
                       "children": [],
                       "loc": 40,
                       "cyclomatic": 3,
-                      "halstead": 13
+                      "halstead": 13,
+                      "coverage": 22,
+                      "coverage": 100
                     },
                     {
                       "name": "jsunityadapter.js",
                       "children": [],
                       "loc": 43,
                       "cyclomatic": 3,
-                      "halstead": 13
+                      "halstead": 13,
+                      "coverage": 100
                     },
                     {
                       "name": "assertions",
@@ -202,21 +225,24 @@
                           "children": [],
                           "loc": 36,
                           "cyclomatic": 4,
-                          "halstead": 18
+                          "halstead": 18,
+                          "coverage": 100
                         },
                         {
                           "name": "secondaryassertions.js",
                           "children": [],
                           "loc": 92,
                           "cyclomatic": 7,
-                          "halstead": 36
+                          "halstead": 36,
+                          "coverage": 99
                         },
                         {
                           "name": "primaryassertions.js",
                           "children": [],
                           "loc": 49,
                           "cyclomatic": 10,
-                          "halstead": 27
+                          "halstead": 27,
+                          "coverage": 100
                         }
                       ]
                     },
@@ -225,35 +251,40 @@
                       "children": [],
                       "loc": 62,
                       "cyclomatic": 5,
-                      "halstead": 16
+                      "halstead": 16,
+                      "coverage": 50
                     },
                     {
                       "name": "covered.js",
                       "children": [],
                       "loc": 95,
                       "cyclomatic": 5,
-                      "halstead": 21
+                      "halstead": 21,
+                      "coverage": 94
                     },
                     {
                       "name": "testrunner.js",
                       "children": [],
                       "loc": 75,
                       "cyclomatic": 7,
-                      "halstead": 20
+                      "halstead": 20,
+                      "coverage": 88
                     },
                     {
                       "name": "sure.js",
                       "children": [],
                       "loc": 122,
                       "cyclomatic": 8,
-                      "halstead": 34
+                      "halstead": 34,
+                      "coverage": 80
                     },
                     {
                       "name": "reporter.js",
                       "children": [],
                       "loc": 84,
                       "cyclomatic": 14,
-                      "halstead": 24
+                      "halstead": 24,
+                      "coverage": 100
                     }
                   ]
                 },
@@ -262,382 +293,8 @@
                   "children": [],
                   "loc": 35,
                   "cyclomatic": 6,
-                  "halstead": 16
-                },
-                {
-                  "name": "examples",
-                  "children": [
-                    {
-                      "name": "c:\\git\\gt2\\examples\\all.js",
-                      "children": [],
-                      "coverage": 100
-                    },
-                    {
-                      "name": "basic",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\tests.js",
-                          "children": [],
-                          "coverage": 97
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\code.js",
-                          "children": [],
-                          "coverage": 97
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\code2.js",
-                          "children": [],
-                          "coverage": 80
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\exceptionTests.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\definedUndefined.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\null.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\basic\\empty.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "throws",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\throws\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "amd",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\amd\\fooTests.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\amd\\foo.js",
-                          "children": [],
-                          "coverage": 71
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\amd\\bar.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "altAsserrionSyntax",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\altAsserrionSyntax\\tests.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "arrays",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\arrays\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "faster",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\faster\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\faster\\fibonacci.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "fluent",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\fluent\\foo.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "funcAndArity",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\funcAndArity\\test.js",
-                          "children": [],
-                          "coverage": 90
-                        }
-                      ]
-                    },
-                    {
-                      "name": "expect",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\expect\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "extend",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\extend\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "coffee",
-                      "children": [
-                        {
-                          "name": "coffeeTestsJs",
-                          "children": [
-                            {
-                              "name": "c:\\git\\gt2\\examples\\coffee\\coffeeTestsJs\\foo.js",
-                              "children": [],
-                              "coverage": 80
-                            }
-                          ]
-                        },
-                        {
-                          "name": "jsTestsCoffee",
-                          "children": [
-                            {
-                              "name": "c:\\git\\gt2\\examples\\coffee\\jsTestsCoffee\\tests.js",
-                              "children": [],
-                              "coverage": 100
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "doh",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\doh\\fooTests.js",
-                          "children": [],
-                          "coverage": 86
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\doh\\foo.js",
-                          "children": [],
-                          "coverage": 57
-                        }
-                      ]
-                    },
-                    {
-                      "name": "dohDefine",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\dohDefine\\fooTests.js",
-                          "children": [],
-                          "coverage": 92
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\dohDefine\\foo.js",
-                          "children": [],
-                          "coverage": 67
-                        }
-                      ]
-                    },
-                    {
-                      "name": "gtAndQUnit",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\gtAndQUnit\\gtTests.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\gtAndQUnit\\qunitTests.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "lodash",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\lodash\\totalLength.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "moduleSetupTeardown",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\moduleSetupTeardown\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "namedTest",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\namedTest\\foo.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "overrideGt",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\overrideGt\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "qunit",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\qunit\\foo.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "skipTest",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\skipTest\\tests.js",
-                          "children": [],
-                          "coverage": 56
-                        }
-                      ]
-                    },
-                    {
-                      "name": "jsUnity",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\jsUnity\\foo.js",
-                          "children": [],
-                          "coverage": 67
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\jsUnity\\fooTests.js",
-                          "children": [],
-                          "coverage": 91
-                        }
-                      ]
-                    },
-                    {
-                      "name": "async",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\async\\test.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\examples\\async\\timeoutTests.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "exec",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\examples\\exec\\tests.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "tests",
-                  "children": [
-                    {
-                      "name": "c:\\git\\gt2\\tests\\all.js",
-                      "children": [],
-                      "coverage": 100
-                    },
-                    {
-                      "name": "small",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\tests\\small\\pluckTest.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\tests\\small\\pluckObjects.js",
-                          "children": [],
-                          "coverage": 92
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\tests\\small\\oneFailsTest.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    },
-                    {
-                      "name": "large",
-                      "children": [
-                        {
-                          "name": "c:\\git\\gt2\\tests\\large\\loadingCrashTest.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\tests\\large\\twoFailingTest.js",
-                          "children": [],
-                          "coverage": 100
-                        },
-                        {
-                          "name": "c:\\git\\gt2\\tests\\large\\skipTest.js",
-                          "children": [],
-                          "coverage": 100
-                        }
-                      ]
-                    }
-                  ]
+                  "halstead": 16,
+                  "coverage": 98
                 }
               ]
             }
